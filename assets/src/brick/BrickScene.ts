@@ -19,14 +19,25 @@ export class BrickScene extends cc.Component {
     private layout: BrickLayout = null;
     @property(cc.Label)
     private scoreLabel: cc.Label = null;
+
+    alertDialog: cc.Node;
+    @property(cc.Prefab)
+    private alertPrefab: cc.Prefab = null;
     
     private brickNum: number = 50;
     private score = 0;
     private physicsManager: cc.PhysicsManager = null;
 
     onLoad() {
+
+        this.alertDialog = cc.instantiate(this.alertPrefab);
+ 
         this.physicsManager = cc.director.getPhysicsManager();
         this.startGame();
+
+        this.alertDialog.getComponent('Alert').showAlert('学会了吗？', function(){
+            cc.log('点击确定按钮');
+        }, true);
     }
 
     //this.physicsManager.debugDrawFlags =0;
@@ -93,7 +104,8 @@ export class BrickScene extends cc.Component {
     }
 
     onBallContactGround(ballNode: cc.Node, groundNode: cc.Node) {
-        this.stopGame();
+        console.log("停止");
+        //this.stopGame();
     }
 
     onBallContactPaddle(ballNode: cc.Node, paddleNode: cc.Node) {

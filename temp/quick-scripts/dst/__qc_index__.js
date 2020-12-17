@@ -10,6 +10,7 @@
                     };
                     function __define (exports, require, module) {
                         if (!nodeEnv) {__quick_compile_project__.registerModule(__filename, module);}
+require('./assets/src/brick/Alert');
 require('./assets/src/brick/BrickBall');
 require('./assets/src/brick/BrickColor');
 require('./assets/src/brick/BrickLayout');

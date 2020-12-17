@@ -1,6 +1,6 @@
 "use strict";
 cc._RF.push(module, '418dd4SDMdFq4QLDrVag/YV', 'BrickPaddle');
-// res/src/brick/BrickPaddle.ts
+// src/brick/BrickPaddle.ts
 
 "use strict";
 var __extends = (this && this.__extends) || (function () {
@@ -34,7 +34,7 @@ var BrickPaddle = /** @class */ (function (_super) {
         var _this = this;
         this.node.parent.on(cc.Node.EventType.TOUCH_MOVE, function (event) {
             //将世界坐标转化为本地坐标
-            var touchPoint = _this.node.parent.convertToNodeSpace(event.getLocation());
+            var touchPoint = _this.node.parent.convertToNodeSpaceAR(event.getLocation());
             _this.node.x = touchPoint.x;
         });
     };

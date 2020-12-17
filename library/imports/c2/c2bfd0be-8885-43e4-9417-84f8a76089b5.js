@@ -37,14 +37,19 @@ var BrickScene = /** @class */ (function (_super) {
         _this.paddle = null;
         _this.layout = null;
         _this.scoreLabel = null;
+        _this.alertPrefab = null;
         _this.brickNum = 50;
         _this.score = 0;
         _this.physicsManager = null;
         return _this;
     }
     BrickScene.prototype.onLoad = function () {
+        this.alertDialog = cc.instantiate(this.alertPrefab);
         this.physicsManager = cc.director.getPhysicsManager();
         this.startGame();
+        this.alertDialog.getComponent('Alert').showAlert('学会了吗？', function () {
+            cc.log('点击确定按钮');
+        }, true);
     };
     //this.physicsManager.debugDrawFlags =0;
     // cc.PhysicsManager.DrawBits.e_aabbBit |
@@ -101,7 +106,8 @@ var BrickScene = /** @class */ (function (_super) {
         }
     };
     BrickScene.prototype.onBallContactGround = function (ballNode, groundNode) {
-        this.stopGame();
+        console.log("停止");
+        //this.stopGame();
     };
     BrickScene.prototype.onBallContactPaddle = function (ballNode, paddleNode) {
     };
@@ -122,6 +128,9 @@ var BrickScene = /** @class */ (function (_super) {
     __decorate([
         property(cc.Label)
     ], BrickScene.prototype, "scoreLabel", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], BrickScene.prototype, "alertPrefab", void 0);
     BrickScene = __decorate([
         ccclass
     ], BrickScene);
