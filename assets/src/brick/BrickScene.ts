@@ -35,9 +35,7 @@ export class BrickScene extends cc.Component {
         this.physicsManager = cc.director.getPhysicsManager();
         this.startGame();
 
-        this.alertDialog.getComponent('Alert').showAlert('学会了吗？', function(){
-            cc.log('点击确定按钮');
-        }, true);
+        
     }
 
     //this.physicsManager.debugDrawFlags =0;
@@ -75,14 +73,10 @@ export class BrickScene extends cc.Component {
     stopGame() {
         this.physicsManager.enabled = false;
         
-        //console.log("测试");
-        //this.startGame();
-        this.gameRoot.showMaskMessage("游戏结束",
-                {
-                    label: "再来一局", cb: () => {
-                        this.startGame();
-                    }, target: this
-                });
+        let self = this;
+        this.alertDialog.getComponent('Alert').showAlert('游戏结束', function(){
+            self.startGame();
+        }, true);
     }
 
     addScore(score){
@@ -104,8 +98,8 @@ export class BrickScene extends cc.Component {
     }
 
     onBallContactGround(ballNode: cc.Node, groundNode: cc.Node) {
-        console.log("停止");
-        //this.stopGame();
+       // console.log("停止");
+        this.stopGame();
     }
 
     onBallContactPaddle(ballNode: cc.Node, paddleNode: cc.Node) {

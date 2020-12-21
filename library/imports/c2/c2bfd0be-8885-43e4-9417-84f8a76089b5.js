@@ -47,9 +47,6 @@ var BrickScene = /** @class */ (function (_super) {
         this.alertDialog = cc.instantiate(this.alertPrefab);
         this.physicsManager = cc.director.getPhysicsManager();
         this.startGame();
-        this.alertDialog.getComponent('Alert').showAlert('学会了吗？', function () {
-            cc.log('点击确定按钮');
-        }, true);
     };
     //this.physicsManager.debugDrawFlags =0;
     // cc.PhysicsManager.DrawBits.e_aabbBit |
@@ -78,17 +75,11 @@ var BrickScene = /** @class */ (function (_super) {
         this.physicsManager.enabled = true;
     };
     BrickScene.prototype.stopGame = function () {
-        var _this = this;
         this.physicsManager.enabled = false;
-        //console.log("测试");
-        //this.startGame();
-        this.gameRoot.showMaskMessage("游戏结束", {
-            label: "再来一局",
-            cb: function () {
-                _this.startGame();
-            },
-            target: this
-        });
+        var self = this;
+        this.alertDialog.getComponent('Alert').showAlert('游戏结束', function () {
+            self.startGame();
+        }, true);
     };
     BrickScene.prototype.addScore = function (score) {
         this.score += score;
@@ -106,8 +97,8 @@ var BrickScene = /** @class */ (function (_super) {
         }
     };
     BrickScene.prototype.onBallContactGround = function (ballNode, groundNode) {
-        console.log("停止");
-        //this.stopGame();
+        // console.log("停止");
+        this.stopGame();
     };
     BrickScene.prototype.onBallContactPaddle = function (ballNode, paddleNode) {
     };

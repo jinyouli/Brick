@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -8,
-      "y": -8,
-      "width": 1382,
-      "height": 744,
+      "x": 8,
+      "y": 0,
+      "width": 1366,
+      "height": 753,
       "layout": {
         "children": [
           {
@@ -46,21 +46,21 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 305.765625,
+                    "height": 363.5,
                     "type": "panel",
-                    "width": 394
+                    "width": 569
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-                    "height": 305.765625,
+                    "height": 363.5,
                     "type": "panel",
-                    "width": 439
+                    "width": 264
                   }
                 ],
-                "height": 305.765625,
+                "height": 363.5,
                 "type": "dock-h",
                 "width": 836
               },
@@ -71,12 +71,12 @@
                   "timeline",
                   "game-window"
                 ],
-                "height": 343.734375,
+                "height": 266,
                 "type": "panel",
                 "width": 836
               }
             ],
-            "height": 652.5,
+            "height": 632.5,
             "type": "dock-v",
             "width": 836
           },
@@ -86,7 +86,7 @@
               "inspector",
               "cocos-services"
             ],
-            "height": 652.5,
+            "height": 632.5,
             "type": "panel",
             "width": 304
           }
@@ -108,8 +108,16 @@
     },
     "worker": {}
   },
-  "panels": {},
+  "panels": {
+    "builder": {
+      "x": 425,
+      "y": 0,
+      "width": 516,
+      "height": 728
+    }
+  },
   "panelLabelWidth": {
-    "inspector": null
+    "inspector": null,
+    "builder": null
   }
 }

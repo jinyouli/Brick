@@ -18,11 +18,11 @@ export default class NewClass extends cc.Component {
     @property(cc.Node)
     okButton: cc.Node = null;
 
-    @property(cc.Node)
-    celButton: cc.Node = null;
+    // @property(cc.Node)
+    // celButton: cc.Node = null;
 
     _okCallback: any;
-    _celCallback: any;
+    //_celCallback: any;
     // LIFE-CYCLE CALLBACKS:
     fadeOutFinish: any;
 
@@ -44,7 +44,7 @@ export default class NewClass extends cc.Component {
 
         // 给按钮注册点击事件
         this.okButton.on('click', this.onButtonClicked,this);
-        this.celButton.on('click', this.onButtonClicked,this);
+        //this.celButton.on('click', this.onButtonClicked,this);
     }
 
     onButtonClicked(event:cc.Event){
@@ -69,30 +69,30 @@ export default class NewClass extends cc.Component {
             this.label.string = text;
         }
 
-        if(needCancel || needCancel == undefined){
-            // 激活取消按钮
-            this.celButton.active = true;
-            let wg = this.okButton.getComponent(cc.Widget);
-            if(wg){
-                // 需要重新设置一遍确定按钮
-                wg.left = 50;
-                // 确定按钮左对齐
-                wg.isAlignLeft = true;
-                // 手动刷新widget，立即生效
-                wg.updateAlignment();
-            }
-        }else{
-            // 干掉取消按钮
-            this.celButton.active = false;
-            // 确定按钮挂载了widget组件，所以直接改x坐标会在下一帧生效
-            // 确定按钮居中，需要手动刷新widget
-            let wg = this.okButton.getComponent(cc.Widget);
-            if(wg){
-                wg.isAlignHorizontalCenter = true;
-                // 手动刷新widget，立即生效
-                wg.updateAlignment();
-            }
-        }
+        // if(needCancel || needCancel == undefined){
+        //     // 激活取消按钮
+        //     //this.celButton.active = true;
+        //     let wg = this.okButton.getComponent(cc.Widget);
+        //     if(wg){
+        //         // 需要重新设置一遍确定按钮
+        //         wg.left = 50;
+        //         // 确定按钮左对齐
+        //         wg.isAlignLeft = true;
+        //         // 手动刷新widget，立即生效
+        //         wg.updateAlignment();
+        //     }
+        // }else{
+        //     // 干掉取消按钮
+        //     //this.celButton.active = false;
+        //     // 确定按钮挂载了widget组件，所以直接改x坐标会在下一帧生效
+        //     // 确定按钮居中，需要手动刷新widget
+        //     let wg = this.okButton.getComponent(cc.Widget);
+        //     if(wg){
+        //         wg.isAlignHorizontalCenter = true;
+        //         // 手动刷新widget，立即生效
+        //         wg.updateAlignment();
+        //     }
+        // }
         
         // 传一个回调函数进来，用来处理点击确定按钮的逻辑
         if(callback != undefined){
