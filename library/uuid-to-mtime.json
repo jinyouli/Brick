@@ -10,8 +10,8 @@
     "relativePath": "res\\scenes"
   },
   "7d3ca11a-1cac-455a-8f60-047b42ebeb49": {
-    "asset": 1608552276811,
-    "meta": 1608552276829,
+    "asset": 1608728058271,
+    "meta": 1608728058291,
     "relativePath": "res\\scenes\\brick.fire"
   },
   "5ffcba10-fc36-4341-9399-ce8208c70c02": {
@@ -20,14 +20,9 @@
     "relativePath": "res\\textures"
   },
   "777df39b-9668-4a5c-a558-4d5b33fd5956": {
-    "asset": 1601435357176,
-    "meta": 1608204725339,
+    "asset": 1608726746653,
+    "meta": 1608726807486,
     "relativePath": "res\\textures\\brick"
-  },
-  "b7c17be3-d409-43d5-9799-306488ad974c": {
-    "asset": 1555484589000,
-    "meta": 1601036111552,
-    "relativePath": "res\\textures\\brick\\ball.png"
   },
   "44d83ca8-0102-44a9-8563-88b9ec6e8307": {
     "asset": 1555484589000,
@@ -48,11 +43,6 @@
     "asset": 1555484589000,
     "meta": 1601036111734,
     "relativePath": "res\\textures\\brick\\brick0.png"
-  },
-  "6ff3e62a-d1d2-490d-af9d-986d28893f0e": {
-    "asset": 1555484589000,
-    "meta": 1601036111752,
-    "relativePath": "res\\textures\\brick\\bg.png"
   },
   "331e285e-6419-4b5b-a33e-0c951c27f192": {
     "asset": 1555484589000,
@@ -98,11 +88,6 @@
     "asset": 1555484589000,
     "meta": 1601036111952,
     "relativePath": "res\\textures\\brick\\button1.png"
-  },
-  "6af69788-3d75-464c-9a32-b6a606154497": {
-    "asset": 1555484589000,
-    "meta": 1601036111980,
-    "relativePath": "res\\textures\\brick\\paddle.png"
   },
   "98355b62-e5c7-4b40-baae-52ab95db5c7f": {
     "asset": 1555484589000,
@@ -693,5 +678,20 @@
     "asset": 1608549812614,
     "meta": 1608549814383,
     "relativePath": "src\\brick\\BrickScene.ts"
+  },
+  "6ff3e62a-d1d2-490d-af9d-986d28893f0e": {
+    "asset": 1608725669279,
+    "meta": 1608725731885,
+    "relativePath": "res\\textures\\brick\\bg.png"
+  },
+  "b7c17be3-d409-43d5-9799-306488ad974c": {
+    "asset": 1608726258391,
+    "meta": 1608726305937,
+    "relativePath": "res\\textures\\brick\\ball.png"
+  },
+  "6af69788-3d75-464c-9a32-b6a606154497": {
+    "asset": 1608726702605,
+    "meta": 1608726746696,
+    "relativePath": "res\\textures\\brick\\paddle.png"
   }
 }
