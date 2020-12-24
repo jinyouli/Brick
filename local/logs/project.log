@@ -1,334 +1,571 @@
-2020-12-23T12:34:20.890Z - normal: Load ~/.CocosCreator/settings.json
-2020-12-23T12:34:21.040Z - normal: Initializing Asset Database
-2020-12-23T12:34:21.054Z - normal: checking language setting...
-2020-12-23T12:34:21.054Z - normal: Language: zh
-2020-12-23T12:34:23.104Z - success: protocol editor-framework registered
-2020-12-23T12:34:23.105Z - success: protocol app registered
-2020-12-23T12:34:23.105Z - success: protocol theme registered
-2020-12-23T12:34:23.105Z - success: protocol packages registered
-2020-12-23T12:34:23.106Z - success: protocol uuid registerred
-2020-12-23T12:34:23.106Z - success: protocol db registerred
-2020-12-23T12:34:23.106Z - success: protocol thumbnail registerred
-2020-12-23T12:34:23.106Z - success: protocol unpack registerred
-2020-12-23T12:34:23.107Z - success: protocol disable-commonjs registerred
-2020-12-23T12:34:23.441Z - normal: connected!
-2020-12-23T12:34:23.444Z - normal: Check project E:\github\Brick
-2020-12-23T12:34:23.447Z - normal: Initializing project E:\github\Brick
-2020-12-23T12:34:23.759Z - success: adapters loaded
-2020-12-23T12:34:23.763Z - success: asset-db-debugger loaded
-2020-12-23T12:34:23.916Z - success: fb-audience-network loaded
-2020-12-23T12:34:24.002Z - success: fb-live-stream loaded
-2020-12-23T12:34:24.008Z - success: google-play-instant loaded
-2020-12-23T12:34:24.010Z - success: jsb-adapter loaded
-2020-12-23T12:34:24.015Z - success: package-manager loaded
-2020-12-23T12:34:24.016Z - success: runtime-adapters loaded
-2020-12-23T12:34:24.021Z - success: runtime-dev-tools loaded
-2020-12-23T12:34:24.026Z - success: ui-kit-preview-extra loaded
-2020-12-23T12:34:24.030Z - success: ui-kit-preview loaded
-2020-12-23T12:34:24.133Z - success: alipay-minigame loaded
-2020-12-23T12:34:24.237Z - success: assets loaded
-2020-12-23T12:34:24.243Z - success: baidugame-opendata loaded
-2020-12-23T12:34:24.248Z - success: baidugame loaded
-2020-12-23T12:34:24.256Z - success: builder loaded
-2020-12-23T12:34:24.261Z - success: bytedance-opendata loaded
-2020-12-23T12:34:24.266Z - success: bytedance loaded
-2020-12-23T12:34:24.270Z - success: channel-upload-tools loaded
-2020-12-23T12:34:24.276Z - success: cloud-function loaded
-2020-12-23T12:34:24.597Z - success: cocos-services loaded
-2020-12-23T12:34:24.604Z - success: console loaded
-2020-12-23T12:34:24.606Z - success: curve-editor loaded
-2020-12-23T12:34:24.626Z - success: fb-instant-games loaded
-2020-12-23T12:34:24.630Z - success: game-window loaded
-2020-12-23T12:34:24.632Z - success: google-instant-games loaded
-2020-12-23T12:34:24.637Z - success: hierarchy loaded
-2020-12-23T12:34:24.643Z - success: huawei-agc loaded
-2020-12-23T12:34:24.650Z - success: huawei-runtime loaded
-2020-12-23T12:34:24.653Z - success: inspector loaded
-2020-12-23T12:34:24.680Z - success: cpk-publish loaded
-2020-12-23T12:34:24.681Z - success: keystore loaded
-2020-12-23T12:34:24.711Z - success: link-sure-runtime loaded
-2020-12-23T12:34:24.729Z - success: node-library loaded
-2020-12-23T12:34:24.730Z - success: open-recent-items loaded
-2020-12-23T12:34:24.736Z - success: oppo-runtime loaded
-2020-12-23T12:34:24.744Z - success: package-asset loaded
-2020-12-23T12:34:24.746Z - success: preferences loaded
-2020-12-23T12:34:24.750Z - success: project-importer loaded
-2020-12-23T12:34:24.753Z - success: project-settings loaded
-2020-12-23T12:34:24.791Z - success: qtt-runtime loaded
-2020-12-23T12:34:24.796Z - success: scene loaded
-2020-12-23T12:34:24.797Z - success: simulator-debugger loaded
-2020-12-23T12:34:24.798Z - success: sprite-editor loaded
-2020-12-23T12:34:24.865Z - success: store loaded
-2020-12-23T12:34:24.870Z - success: timeline loaded
-2020-12-23T12:34:24.880Z - success: vivo-runtime loaded
-2020-12-23T12:34:24.884Z - success: wechatgame-opendata loaded
-2020-12-23T12:34:24.890Z - success: wechatgame loaded
-2020-12-23T12:34:24.896Z - success: xiaomi-runtime loaded
-2020-12-23T12:34:25.390Z - success: im-plugin loaded
-2020-12-23T12:34:25.401Z - success: preview server running at http://localhost:7456
-2020-12-23T12:34:27.659Z - info: Cocos Service load base data!
-2020-12-23T12:34:28.568Z - normal: Initializing Cocos2d
-2020-12-23T12:34:29.255Z - normal: Initializing engine extends
-2020-12-23T12:34:31.542Z - normal: Loading packages
-2020-12-23T12:34:31.554Z - normal: Watching packages
-2020-12-23T12:34:31.628Z - normal: Run Application
-2020-12-23T12:34:41.925Z - warn: The Asset used by component "cc.Sprite" in scene "brick.fire" is missing. Detailed information:
-Node path: "Canvas/bg"
-Asset url: "db://assets/res/scenes/brick.fire"
-Missing uuid: "deb85473-6362-46be-85b4-82973ade5b19"
+2020-12-24T10:56:41.366Z - normal: Load ~/.CocosCreator/settings.json
+2020-12-24T10:56:41.539Z - normal: Initializing Asset Database
+2020-12-24T10:56:41.565Z - normal: checking language setting...
+2020-12-24T10:56:41.565Z - normal: Language: zh
+2020-12-24T10:56:46.881Z - success: protocol editor-framework registered
+2020-12-24T10:56:46.882Z - success: protocol app registered
+2020-12-24T10:56:46.882Z - success: protocol theme registered
+2020-12-24T10:56:46.882Z - success: protocol packages registered
+2020-12-24T10:56:46.896Z - success: protocol uuid registerred
+2020-12-24T10:56:46.896Z - success: protocol db registerred
+2020-12-24T10:56:46.897Z - success: protocol thumbnail registerred
+2020-12-24T10:56:46.897Z - success: protocol unpack registerred
+2020-12-24T10:56:46.897Z - success: protocol disable-commonjs registerred
+2020-12-24T10:56:47.107Z - normal: connected!
+2020-12-24T10:56:47.111Z - normal: Check project E:\github\Brick
+2020-12-24T10:56:47.120Z - normal: Initializing project E:\github\Brick
+2020-12-24T10:56:49.331Z - success: adapters loaded
+2020-12-24T10:56:49.336Z - success: asset-db-debugger loaded
+2020-12-24T10:56:49.796Z - success: fb-audience-network loaded
+2020-12-24T10:56:49.949Z - success: fb-live-stream loaded
+2020-12-24T10:56:49.965Z - success: google-play-instant loaded
+2020-12-24T10:56:49.966Z - success: jsb-adapter loaded
+2020-12-24T10:56:49.970Z - success: package-manager loaded
+2020-12-24T10:56:49.970Z - success: runtime-adapters loaded
+2020-12-24T10:56:49.980Z - success: runtime-dev-tools loaded
+2020-12-24T10:56:49.983Z - success: ui-kit-preview-extra loaded
+2020-12-24T10:56:49.987Z - success: ui-kit-preview loaded
+2020-12-24T10:56:50.176Z - success: alipay-minigame loaded
+2020-12-24T10:56:50.250Z - success: assets loaded
+2020-12-24T10:56:50.257Z - success: baidugame-opendata loaded
+2020-12-24T10:56:50.261Z - success: baidugame loaded
+2020-12-24T10:56:50.294Z - success: builder loaded
+2020-12-24T10:56:50.298Z - success: bytedance-opendata loaded
+2020-12-24T10:56:50.301Z - success: bytedance loaded
+2020-12-24T10:56:50.306Z - success: channel-upload-tools loaded
+2020-12-24T10:56:50.517Z - success: cloud-function loaded
+2020-12-24T10:56:51.991Z - success: cocos-services loaded
+2020-12-24T10:56:51.996Z - success: console loaded
+2020-12-24T10:56:51.999Z - success: curve-editor loaded
+2020-12-24T10:56:52.014Z - success: fb-instant-games loaded
+2020-12-24T10:56:52.019Z - success: game-window loaded
+2020-12-24T10:56:52.021Z - success: google-instant-games loaded
+2020-12-24T10:56:52.025Z - success: hierarchy loaded
+2020-12-24T10:56:52.029Z - success: huawei-agc loaded
+2020-12-24T10:56:52.034Z - success: huawei-runtime loaded
+2020-12-24T10:56:52.058Z - success: inspector loaded
+2020-12-24T10:56:52.088Z - success: cpk-publish loaded
+2020-12-24T10:56:52.089Z - success: keystore loaded
+2020-12-24T10:56:52.150Z - success: link-sure-runtime loaded
+2020-12-24T10:56:52.180Z - success: node-library loaded
+2020-12-24T10:56:52.181Z - success: open-recent-items loaded
+2020-12-24T10:56:52.195Z - success: oppo-runtime loaded
+2020-12-24T10:56:52.219Z - success: package-asset loaded
+2020-12-24T10:56:52.221Z - success: preferences loaded
+2020-12-24T10:56:52.222Z - success: project-importer loaded
+2020-12-24T10:56:52.225Z - success: project-settings loaded
+2020-12-24T10:56:52.256Z - success: qtt-runtime loaded
+2020-12-24T10:56:52.262Z - success: scene loaded
+2020-12-24T10:56:52.264Z - success: simulator-debugger loaded
+2020-12-24T10:56:52.266Z - success: sprite-editor loaded
+2020-12-24T10:56:52.781Z - success: store loaded
+2020-12-24T10:56:52.811Z - success: timeline loaded
+2020-12-24T10:56:52.830Z - success: vivo-runtime loaded
+2020-12-24T10:56:52.838Z - success: wechatgame-opendata loaded
+2020-12-24T10:56:52.867Z - success: wechatgame loaded
+2020-12-24T10:56:52.875Z - success: xiaomi-runtime loaded
+2020-12-24T10:56:55.665Z - success: im-plugin loaded
+2020-12-24T10:56:55.684Z - success: preview server running at http://localhost:7456
+2020-12-24T10:56:57.294Z - info: Cocos Service load base data!
+2020-12-24T10:56:58.293Z - normal: Initializing Cocos2d
+2020-12-24T10:57:00.729Z - normal: Initializing engine extends
+2020-12-24T10:57:05.178Z - normal: Loading packages
+2020-12-24T10:57:05.186Z - normal: Watching packages
+2020-12-24T10:57:05.269Z - normal: Run Application
+2020-12-24T11:04:29.947Z - error: TypeError: Cannot read property 'parent' of null
+    at Object.exports.remove (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\assets\panel\utils\cache.js:1:2119)
+    at Object.exports.remove (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\assets\panel\utils\operation.js:1:3184)
+    at eval (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\assets\panel\index.js:1:4548)
+    at Array.forEach (<anonymous>)
+    at HTMLElement.asset-db:assets-deleted (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\assets\panel\index.js:1:4534)
+    at EventEmitter.<anonymous> (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor-framework\lib\renderer\ui\panel\frame.js:1:3124)
+    at EventEmitter.emit (events.js:199:15)
+    at EventEmitter.emit (domain.js:469:20)
+    at EventEmitter.topLevelDomainCallback (domain.js:124:23)
+2020-12-24T11:05:46.438Z - warn: The Asset used by component "cc.Sprite" in prefab "brick.prefab" is missing. Detailed information:
+Node path: "brick"
+Asset url: "db://assets/res/prefabs/birck/brick.prefab"
+Missing uuid: "ab8c1a83-2538-40f0-bd9a-87666318f0ba"
 
-2020-12-23T12:34:41.926Z - warn: The Asset used by component "cc.Sprite" in scene "brick.fire" is missing. Detailed information:
-Node path: "PhysicsLayer/paddle"
-Asset url: "db://assets/res/scenes/brick.fire"
-Missing uuid: "5e0b2f3d-798e-4c97-bdb2-e93fa87009e8"
+2020-12-24T11:05:46.467Z - warn: The Asset used by component "cc.Sprite" in prefab "brick.prefab" is missing. Detailed information:
+Node path: "brick"
+Asset url: "db://assets/res/prefabs/birck/brick.prefab"
+Missing uuid: "ab8c1a83-2538-40f0-bd9a-87666318f0ba"
 
-2020-12-23T12:34:41.929Z - warn: The Asset used by component "cc.Sprite" in scene "brick.fire" is missing. Detailed information:
-Node path: "PhysicsLayer/ball"
-Asset url: "db://assets/res/scenes/brick.fire"
-Missing uuid: "456de25b-01de-4406-aa16-85ef4847b92e"
+2020-12-24T11:07:16.192Z - info: 只有预制节点 "brick" 及其子节点会被保存。
+2020-12-24T11:07:28.348Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2020-12-24T11:07:28.351Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
+2020-12-24T11:07:28.352Z - normal: Simulator: FRAME SCALE = 0.50
+2020-12-24T11:07:28.615Z - normal: Simulator: Ready for GLSL
+2020-12-24T11:07:28.616Z - normal: Simulator: Ready for OpenGL 2.0
+2020-12-24T11:07:28.617Z - normal: Simulator: Project Config:
+2020-12-24T11:07:28.617Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
+2020-12-24T11:07:28.618Z - normal: Simulator:     writable path: $(PROJDIR)\
+2020-12-24T11:07:28.619Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2020-12-24T11:07:28.620Z - normal: Simulator:     frame size: 750 x 1334
+2020-12-24T11:07:28.620Z - normal: Simulator:     frame scale: 0.50
+2020-12-24T11:07:28.621Z - normal: Simulator:     show console: NO
+2020-12-24T11:07:28.621Z - normal: Simulator:     write debug log: NO ()
+2020-12-24T11:07:28.622Z - normal: Simulator:     listen: 
+2020-12-24T11:07:28.622Z - normal: Simulator:     debugger: none
+2020-12-24T11:07:28.623Z - normal: Simulator:     add searching path:
+2020-12-24T11:07:28.623Z - normal: Simulator: 
+2020-12-24T11:07:28.624Z - normal: Simulator: 
+2020-12-24T11:07:28.625Z - normal: Simulator: 
+2020-12-24T11:07:28.625Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:07:28.626Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:07:28.626Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2020-12-24T11:07:28.627Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:07:28.627Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
+2020-12-24T11:07:28.627Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2020-12-24T11:07:28.628Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2020-12-24T11:07:28.628Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2020-12-24T11:07:28.711Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
+2020-12-24T11:07:28.711Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:07:28.712Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:07:28.713Z - normal: Simulator: LOAD Js FILE: main.js
+2020-12-24T11:07:28.713Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:07:29.142Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
+2020-12-24T11:07:29.177Z - normal: Simulator: iShow!
+2020-12-24T11:07:29.257Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 56.553999999999974ms
+2020-12-24T11:07:29.550Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
+2020-12-24T11:07:29.550Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
+2020-12-24T11:07:32.027Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
+2020-12-24T11:07:34.882Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
+2020-12-24T11:07:34.883Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 519, all objects: 1268
+2020-12-24T11:07:34.916Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 323, all objects: 1023
+2020-12-24T11:07:34.918Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 323, all objects: 1023
+2020-12-24T11:07:34.940Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 323, all objects: 1023
+2020-12-24T11:07:34.954Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:07:34.956Z - normal: Simulator: D/jswrapper (532): Function object is released!
+2020-12-24T11:07:34.956Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:07:34.973Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
+2020-12-24T11:07:35.112Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+2020-12-24T11:08:48.311Z - info: 只有预制节点 "brick" 及其子节点会被保存。
+2020-12-24T11:08:51.440Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2020-12-24T11:08:51.450Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
+2020-12-24T11:08:51.451Z - normal: Simulator: FRAME SCALE = 0.50
+2020-12-24T11:08:51.851Z - normal: Simulator: Ready for GLSL
+2020-12-24T11:08:51.851Z - normal: Simulator: Ready for OpenGL 2.0
+2020-12-24T11:08:51.852Z - normal: Simulator: Project Config:
+2020-12-24T11:08:51.852Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
+2020-12-24T11:08:51.853Z - normal: Simulator:     writable path: $(PROJDIR)\
+2020-12-24T11:08:51.853Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2020-12-24T11:08:51.853Z - normal: Simulator:     frame size: 750 x 1334
+2020-12-24T11:08:51.854Z - normal: Simulator:     frame scale: 0.50
+2020-12-24T11:08:51.854Z - normal: Simulator:     show console: NO
+2020-12-24T11:08:51.855Z - normal: Simulator:     write debug log: NO ()
+2020-12-24T11:08:51.855Z - normal: Simulator:     listen: 
+2020-12-24T11:08:51.856Z - normal: Simulator:     debugger: none
+2020-12-24T11:08:51.856Z - normal: Simulator:     add searching path:
+2020-12-24T11:08:51.857Z - normal: Simulator: 
+2020-12-24T11:08:51.860Z - normal: Simulator: 
+2020-12-24T11:08:51.860Z - normal: Simulator: 
+2020-12-24T11:08:51.861Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:08:51.862Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:08:51.863Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2020-12-24T11:08:51.863Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:08:51.863Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
+2020-12-24T11:08:51.864Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2020-12-24T11:08:51.864Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2020-12-24T11:08:51.865Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2020-12-24T11:08:51.901Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
+2020-12-24T11:08:51.905Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:08:51.905Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:08:51.906Z - normal: Simulator: LOAD Js FILE: main.js
+2020-12-24T11:08:51.907Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:08:52.443Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
+2020-12-24T11:08:52.487Z - normal: Simulator: iShow!
+2020-12-24T11:08:52.601Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 91.97699999999998ms
+2020-12-24T11:08:52.949Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
+2020-12-24T11:08:52.949Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
+2020-12-24T11:08:55.139Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
+2020-12-24T11:09:09.392Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
+2020-12-24T11:09:09.393Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 355, all objects: 1063
+2020-12-24T11:09:09.402Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 307, all objects: 1003
+2020-12-24T11:09:09.403Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 307, all objects: 1003
+2020-12-24T11:09:09.440Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 307, all objects: 1003
+2020-12-24T11:09:09.442Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:09:09.443Z - normal: Simulator: D/jswrapper (532): Function object is released!
+2020-12-24T11:09:09.443Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:09:09.456Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
+2020-12-24T11:09:09.603Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+2020-12-24T11:11:13.245Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2020-12-24T11:11:13.248Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
+2020-12-24T11:11:13.248Z - normal: Simulator: FRAME SCALE = 0.50
+2020-12-24T11:11:13.615Z - normal: Simulator: Ready for GLSL
+2020-12-24T11:11:13.615Z - normal: Simulator: Ready for OpenGL 2.0
+2020-12-24T11:11:13.615Z - normal: Simulator: Project Config:
+2020-12-24T11:11:13.618Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
+2020-12-24T11:11:13.618Z - normal: Simulator:     writable path: $(PROJDIR)\
+2020-12-24T11:11:13.619Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2020-12-24T11:11:13.619Z - normal: Simulator:     frame size: 750 x 1334
+2020-12-24T11:11:13.623Z - normal: Simulator:     frame scale: 0.50
+2020-12-24T11:11:13.623Z - normal: Simulator:     show console: NO
+2020-12-24T11:11:13.624Z - normal: Simulator:     write debug log: NO ()
+2020-12-24T11:11:13.624Z - normal: Simulator:     listen: 
+2020-12-24T11:11:13.624Z - normal: Simulator:     debugger: none
+2020-12-24T11:11:13.625Z - normal: Simulator:     add searching path:
+2020-12-24T11:11:13.625Z - normal: Simulator: 
+2020-12-24T11:11:13.626Z - normal: Simulator: 
+2020-12-24T11:11:13.626Z - normal: Simulator: 
+2020-12-24T11:11:13.626Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:11:13.627Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:11:13.627Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2020-12-24T11:11:13.627Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:11:13.628Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
+2020-12-24T11:11:13.628Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2020-12-24T11:11:13.628Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2020-12-24T11:11:13.629Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2020-12-24T11:11:13.675Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
+2020-12-24T11:11:13.679Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:11:13.679Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:11:13.680Z - normal: Simulator: LOAD Js FILE: main.js
+2020-12-24T11:11:13.680Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:11:14.172Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
+2020-12-24T11:11:14.210Z - normal: Simulator: iShow!
+2020-12-24T11:11:14.288Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 52.64999999999998ms
+2020-12-24T11:11:14.567Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
+2020-12-24T11:11:14.568Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
+2020-12-24T11:11:16.813Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
+2020-12-24T11:11:18.636Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
+2020-12-24T11:11:18.637Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 319, all objects: 818
+2020-12-24T11:11:18.664Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 319, all objects: 818
+2020-12-24T11:11:18.665Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 319, all objects: 818
+2020-12-24T11:11:18.674Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 319, all objects: 818
+2020-12-24T11:11:18.685Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:11:18.686Z - normal: Simulator: D/jswrapper (532): Function object is released!
+2020-12-24T11:11:18.686Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:11:18.699Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
+2020-12-24T11:11:18.830Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+2020-12-24T11:11:25.685Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2020-12-24T11:11:25.695Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
+2020-12-24T11:11:25.695Z - normal: Simulator: FRAME SCALE = 0.50
+2020-12-24T11:11:26.041Z - normal: Simulator: Ready for GLSL
+2020-12-24T11:11:26.042Z - normal: Simulator: Ready for OpenGL 2.0
+2020-12-24T11:11:26.042Z - normal: Simulator: Project Config:
+2020-12-24T11:11:26.042Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
+2020-12-24T11:11:26.043Z - normal: Simulator:     writable path: $(PROJDIR)\
+2020-12-24T11:11:26.043Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2020-12-24T11:11:26.043Z - normal: Simulator:     frame size: 750 x 1334
+2020-12-24T11:11:26.044Z - normal: Simulator:     frame scale: 0.50
+2020-12-24T11:11:26.044Z - normal: Simulator:     show console: NO
+2020-12-24T11:11:26.044Z - normal: Simulator:     write debug log: NO ()
+2020-12-24T11:11:26.045Z - normal: Simulator:     listen: 
+2020-12-24T11:11:26.045Z - normal: Simulator:     debugger: none
+2020-12-24T11:11:26.046Z - normal: Simulator:     add searching path:
+2020-12-24T11:11:26.046Z - normal: Simulator: 
+2020-12-24T11:11:26.047Z - normal: Simulator: 
+2020-12-24T11:11:26.047Z - normal: Simulator: 
+2020-12-24T11:11:26.048Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:11:26.048Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:11:26.049Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2020-12-24T11:11:26.049Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:11:26.049Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
+2020-12-24T11:11:26.050Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2020-12-24T11:11:26.050Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2020-12-24T11:11:26.050Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2020-12-24T11:11:26.090Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
+2020-12-24T11:11:26.092Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:11:26.092Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:11:26.092Z - normal: Simulator: LOAD Js FILE: main.js
+2020-12-24T11:11:26.093Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:11:26.593Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
+2020-12-24T11:11:26.651Z - normal: Simulator: iShow!
+2020-12-24T11:11:26.717Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 56.53800000000001ms
+2020-12-24T11:11:26.994Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
+2020-12-24T11:11:26.994Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
+2020-12-24T11:11:29.213Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
+2020-12-24T11:11:32.943Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
+2020-12-24T11:11:32.945Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 521, all objects: 1270
+2020-12-24T11:11:32.988Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 323, all objects: 1023
+2020-12-24T11:11:32.989Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 323, all objects: 1023
+2020-12-24T11:11:32.995Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 323, all objects: 1023
+2020-12-24T11:11:32.999Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:11:33.000Z - normal: Simulator: D/jswrapper (532): Function object is released!
+2020-12-24T11:11:33.000Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:11:33.015Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
+2020-12-24T11:11:33.156Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+2020-12-24T11:13:08.733Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2020-12-24T11:13:08.736Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
+2020-12-24T11:13:08.737Z - normal: Simulator: FRAME SCALE = 0.50
+2020-12-24T11:13:09.038Z - normal: Simulator: Ready for GLSL
+2020-12-24T11:13:09.039Z - normal: Simulator: Ready for OpenGL 2.0
+2020-12-24T11:13:09.040Z - normal: Simulator: Project Config:
+2020-12-24T11:13:09.040Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
+2020-12-24T11:13:09.041Z - normal: Simulator:     writable path: $(PROJDIR)\
+2020-12-24T11:13:09.043Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2020-12-24T11:13:09.044Z - normal: Simulator:     frame size: 750 x 1334
+2020-12-24T11:13:09.044Z - normal: Simulator:     frame scale: 0.50
+2020-12-24T11:13:09.044Z - normal: Simulator:     show console: NO
+2020-12-24T11:13:09.045Z - normal: Simulator:     write debug log: NO ()
+2020-12-24T11:13:09.045Z - normal: Simulator:     listen: 
+2020-12-24T11:13:09.045Z - normal: Simulator:     debugger: none
+2020-12-24T11:13:09.045Z - normal: Simulator:     add searching path:
+2020-12-24T11:13:09.046Z - normal: Simulator: 
+2020-12-24T11:13:09.046Z - normal: Simulator: 
+2020-12-24T11:13:09.046Z - normal: Simulator: 
+2020-12-24T11:13:09.047Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:13:09.047Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:13:09.047Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2020-12-24T11:13:09.048Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:13:09.048Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
+2020-12-24T11:13:09.048Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2020-12-24T11:13:09.049Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2020-12-24T11:13:09.049Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2020-12-24T11:13:09.084Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
+2020-12-24T11:13:09.088Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:13:09.088Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:13:09.088Z - normal: Simulator: LOAD Js FILE: main.js
+2020-12-24T11:13:09.089Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:13:09.527Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
+2020-12-24T11:13:09.561Z - normal: Simulator: iShow!
+2020-12-24T11:13:09.636Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 51.649ms
+2020-12-24T11:13:09.917Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
+2020-12-24T11:13:09.917Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
+2020-12-24T11:13:12.231Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
+2020-12-24T11:13:12.233Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 308, all objects: 788
+2020-12-24T11:13:12.263Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 306, all objects: 786
+2020-12-24T11:13:12.264Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 306, all objects: 786
+2020-12-24T11:13:12.264Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 306, all objects: 786
+2020-12-24T11:13:12.274Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:13:12.275Z - normal: Simulator: D/jswrapper (532): Function object is released!
+2020-12-24T11:13:12.276Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:13:12.288Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
+2020-12-24T11:13:12.447Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+2020-12-24T11:13:23.624Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2020-12-24T11:13:23.627Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
+2020-12-24T11:13:23.628Z - normal: Simulator: FRAME SCALE = 0.50
+2020-12-24T11:13:23.954Z - normal: Simulator: Ready for GLSL
+2020-12-24T11:13:23.955Z - normal: Simulator: Ready for OpenGL 2.0
+2020-12-24T11:13:23.955Z - normal: Simulator: Project Config:
+2020-12-24T11:13:23.957Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
+2020-12-24T11:13:23.958Z - normal: Simulator:     writable path: $(PROJDIR)\
+2020-12-24T11:13:23.958Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2020-12-24T11:13:23.958Z - normal: Simulator:     frame size: 750 x 1334
+2020-12-24T11:13:23.959Z - normal: Simulator:     frame scale: 0.50
+2020-12-24T11:13:23.959Z - normal: Simulator:     show console: NO
+2020-12-24T11:13:23.959Z - normal: Simulator:     write debug log: NO ()
+2020-12-24T11:13:23.960Z - normal: Simulator:     listen: 
+2020-12-24T11:13:23.960Z - normal: Simulator:     debugger: none
+2020-12-24T11:13:23.960Z - normal: Simulator:     add searching path:
+2020-12-24T11:13:23.961Z - normal: Simulator: 
+2020-12-24T11:13:23.961Z - normal: Simulator: 
+2020-12-24T11:13:23.961Z - normal: Simulator: 
+2020-12-24T11:13:23.962Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:13:23.962Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:13:23.962Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2020-12-24T11:13:23.963Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:13:23.963Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
+2020-12-24T11:13:23.963Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2020-12-24T11:13:23.964Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2020-12-24T11:13:23.964Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2020-12-24T11:13:24.002Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
+2020-12-24T11:13:24.005Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:13:24.006Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:13:24.006Z - normal: Simulator: LOAD Js FILE: main.js
+2020-12-24T11:13:24.007Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:13:24.457Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
+2020-12-24T11:13:24.496Z - normal: Simulator: iShow!
+2020-12-24T11:13:24.581Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 57.02500000000009ms
+2020-12-24T11:13:24.861Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
+2020-12-24T11:13:24.862Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
+2020-12-24T11:13:27.086Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
+2020-12-24T11:14:03.389Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
+2020-12-24T11:14:03.392Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 319, all objects: 818
+2020-12-24T11:14:03.409Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 319, all objects: 818
+2020-12-24T11:14:03.411Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 319, all objects: 818
+2020-12-24T11:14:03.412Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 319, all objects: 818
+2020-12-24T11:14:03.418Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:14:03.420Z - normal: Simulator: D/jswrapper (532): Function object is released!
+2020-12-24T11:14:03.422Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:14:03.423Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
+2020-12-24T11:14:03.534Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+2020-12-24T11:14:19.954Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
+2020-12-24T11:14:19.957Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
+2020-12-24T11:14:19.958Z - normal: Simulator: FRAME SCALE = 0.50
+2020-12-24T11:14:20.438Z - normal: Simulator: Ready for GLSL
+2020-12-24T11:14:20.439Z - normal: Simulator: Ready for OpenGL 2.0
+2020-12-24T11:14:20.439Z - normal: Simulator: Project Config:
+2020-12-24T11:14:20.440Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
+2020-12-24T11:14:20.440Z - normal: Simulator:     writable path: $(PROJDIR)\
+2020-12-24T11:14:20.441Z - normal: Simulator:     script file: $(PROJDIR)\main.js
+2020-12-24T11:14:20.441Z - normal: Simulator:     frame size: 750 x 1334
+2020-12-24T11:14:20.442Z - normal: Simulator:     frame scale: 0.50
+2020-12-24T11:14:20.442Z - normal: Simulator:     show console: NO
+2020-12-24T11:14:20.443Z - normal: Simulator:     write debug log: NO ()
+2020-12-24T11:14:20.443Z - normal: Simulator:     listen: 
+2020-12-24T11:14:20.444Z - normal: Simulator:     debugger: none
+2020-12-24T11:14:20.444Z - normal: Simulator:     add searching path:
+2020-12-24T11:14:20.445Z - normal: Simulator: 
+2020-12-24T11:14:20.445Z - normal: Simulator: 
+2020-12-24T11:14:20.446Z - normal: Simulator: 
+2020-12-24T11:14:20.446Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:14:20.447Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:14:20.447Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
+2020-12-24T11:14:20.448Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:14:20.448Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
+2020-12-24T11:14:20.449Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
+2020-12-24T11:14:20.449Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
+2020-12-24T11:14:20.449Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
+2020-12-24T11:14:20.450Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
+2020-12-24T11:14:20.450Z - normal: Simulator: resetDesignResolution request
+2020-12-24T11:14:20.451Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:14:20.451Z - normal: Simulator: LOAD Js FILE: main.js
+2020-12-24T11:14:20.456Z - normal: Simulator: ------------------------------------------------
+2020-12-24T11:14:21.256Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
+2020-12-24T11:14:21.314Z - normal: Simulator: iShow!
+2020-12-24T11:14:21.438Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 92.32999999999993ms
+2020-12-24T11:14:22.008Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
+2020-12-24T11:14:22.009Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
+2020-12-24T11:14:24.433Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
+2020-12-24T11:14:24.433Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 306, all objects: 786
+2020-12-24T11:14:24.434Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 306, all objects: 786
+2020-12-24T11:14:24.435Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 306, all objects: 786
+2020-12-24T11:14:24.457Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 306, all objects: 786
+2020-12-24T11:14:24.468Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:14:24.469Z - normal: Simulator: D/jswrapper (532): Function object is released!
+2020-12-24T11:14:24.470Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
+2020-12-24T11:14:24.484Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
+2020-12-24T11:14:24.686Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+libpng warning: iCCP: known incorrect sRGB profile
+2020-12-24T11:14:55.070Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at eval (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\builder\panel\builder.js:1:9686)
+    at EventEmitter.<anonymous> (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:3788)
+    at EventEmitter.emit (events.js:194:13)
+2020-12-24T11:15:10.243Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "android": {
+    "REMOTE_SERVER_ROOT": "",
+    "packageName": "org.cocos2d.demo"
+  },
+  "android-instant": {
+    "REMOTE_SERVER_ROOT": "",
+    "host": "",
+    "packageName": "org.cocos2d.demo",
+    "pathPattern": "",
+    "recordPath": "",
+    "scheme": "https",
+    "skipRecord": false
+  },
+  "apiLevel": "",
+  "appABIs": [],
+  "appBundle": false,
+  "buildPath": "E:\\github\\Brick\\build",
+  "buildScriptsOnly": false,
+  "debug": false,
+  "dest": "E:\\github\\Brick\\build\\wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "3D Physics/Builtin"
+  ],
+  "fb-instant-games": {},
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "ios": {
+    "REMOTE_SERVER_ROOT": "",
+    "packageName": "org.cocos2d.demo"
+  },
+  "mac": {
+    "REMOTE_SERVER_ROOT": "",
+    "height": 720,
+    "packageName": "org.cocos2d.demo",
+    "width": 1280
+  },
+  "mainCompressionType": "default",
+  "mainIsRemote": false,
+  "md5Cache": true,
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.demo",
+  "platform": "mini-game",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "scenes": [
+    "7d3ca11a-1cac-455a-8f60-047b42ebeb49"
+  ],
+  "separateEngineMode": false,
+  "sourceMaps": false,
+  "startScene": "7d3ca11a-1cac-455a-8f60-047b42ebeb49",
+  "template": "link",
+  "title": "Brick",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "win32": {
+    "REMOTE_SERVER_ROOT": "",
+    "height": 720,
+    "width": 1280
+  },
+  "xxteaKey": "60138eb6-3544-40",
+  "zipCompressJs": true,
+  "project": "E:\\github\\Brick",
+  "projectName": "Brick",
+  "debugBuildWorker": false
+}
+2020-12-24T11:15:10.248Z - normal: Building E:\github\Brick
+2020-12-24T11:15:10.249Z - normal: Destination E:\github\Brick\build\wechatgame
+2020-12-24T11:15:10.584Z - normal: Delete E:\github\Brick\build\wechatgame\**\*,!E:\github\Brick\build\wechatgame\game.json,!E:\github\Brick\build\wechatgame\project.config.json
+2020-12-24T11:15:10.745Z - normal: Building 3D physics modules...
+2020-12-24T11:15:25.452Z - normal: Start building assets
+2020-12-24T11:15:25.452Z - normal: Start spawn build-worker
+2020-12-24T11:15:26.620Z - normal: Finish spawn build-worker
+2020-12-24T11:15:26.621Z - normal: Start init build-worker
+2020-12-24T11:15:30.012Z - normal: Finish init build-worker
+2020-12-24T11:15:30.012Z - normal: Start build-assets in worker
+2020-12-24T11:15:30.721Z - normal: Finish build-assets in worker
+2020-12-24T11:15:30.763Z - normal: Finish building assets
+2020-12-24T11:15:30.792Z - normal: Start building plugin scripts
+2020-12-24T11:15:37.666Z - normal: Built wechatgame successfully
+2020-12-24T11:15:48.428Z - error: - initialize
 
-2020-12-23T12:37:42.785Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2020-12-23T12:37:42.793Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
-2020-12-23T12:37:42.794Z - normal: Simulator: FRAME SCALE = 0.50
-2020-12-23T12:37:43.240Z - normal: Simulator: Ready for GLSL
-2020-12-23T12:37:43.241Z - normal: Simulator: Ready for OpenGL 2.0
-2020-12-23T12:37:43.242Z - normal: Simulator: Project Config:
-2020-12-23T12:37:43.243Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
-2020-12-23T12:37:43.243Z - normal: Simulator:     writable path: $(PROJDIR)\
-2020-12-23T12:37:43.244Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2020-12-23T12:37:43.244Z - normal: Simulator:     frame size: 750 x 1334
-2020-12-23T12:37:43.245Z - normal: Simulator:     frame scale: 0.50
-2020-12-23T12:37:43.245Z - normal: Simulator:     show console: NO
-2020-12-23T12:37:43.246Z - normal: Simulator:     write debug log: NO ()
-2020-12-23T12:37:43.246Z - normal: Simulator:     listen: 
-2020-12-23T12:37:43.247Z - normal: Simulator:     debugger: none
-2020-12-23T12:37:43.247Z - normal: Simulator:     add searching path:
-2020-12-23T12:37:43.248Z - normal: Simulator: 
-2020-12-23T12:37:43.249Z - normal: Simulator: 
-2020-12-23T12:37:43.251Z - normal: Simulator: 
-2020-12-23T12:37:43.251Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:37:43.252Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:37:43.252Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2020-12-23T12:37:43.253Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:37:43.253Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
-2020-12-23T12:37:43.254Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
-2020-12-23T12:37:43.255Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2020-12-23T12:37:43.257Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
-2020-12-23T12:37:43.359Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
-2020-12-23T12:37:43.360Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:37:43.360Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:37:43.361Z - normal: Simulator: LOAD Js FILE: main.js
-2020-12-23T12:37:43.361Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:37:44.151Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
-2020-12-23T12:37:44.203Z - normal: Simulator: iShow!
-2020-12-23T12:37:44.344Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 83.16499999999996ms
-2020-12-23T12:37:44.766Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
-2020-12-23T12:37:44.766Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
-2020-12-23T12:37:52.628Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
-2020-12-23T12:37:53.024Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
-2020-12-23T12:37:53.027Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 299, all objects: 793
-2020-12-23T12:37:53.056Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 299, all objects: 793
-2020-12-23T12:37:53.057Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 299, all objects: 793
-2020-12-23T12:37:53.089Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 299, all objects: 793
-2020-12-23T12:37:53.141Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:37:53.142Z - normal: Simulator: D/jswrapper (532): Function object is released!
-2020-12-23T12:37:53.143Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:37:53.165Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
-2020-12-23T12:37:53.392Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-2020-12-23T12:38:54.862Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2020-12-23T12:38:54.869Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
-2020-12-23T12:38:54.872Z - normal: Simulator: FRAME SCALE = 0.50
-2020-12-23T12:38:55.410Z - normal: Simulator: Ready for GLSL
-2020-12-23T12:38:55.411Z - normal: Simulator: Ready for OpenGL 2.0
-2020-12-23T12:38:55.411Z - normal: Simulator: Project Config:
-2020-12-23T12:38:55.412Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
-2020-12-23T12:38:55.412Z - normal: Simulator:     writable path: $(PROJDIR)\
-2020-12-23T12:38:55.413Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2020-12-23T12:38:55.413Z - normal: Simulator:     frame size: 750 x 1334
-2020-12-23T12:38:55.413Z - normal: Simulator:     frame scale: 0.50
-2020-12-23T12:38:55.414Z - normal: Simulator:     show console: NO
-2020-12-23T12:38:55.414Z - normal: Simulator:     write debug log: NO ()
-2020-12-23T12:38:55.415Z - normal: Simulator:     listen: 
-2020-12-23T12:38:55.415Z - normal: Simulator:     debugger: none
-2020-12-23T12:38:55.415Z - normal: Simulator:     add searching path:
-2020-12-23T12:38:55.416Z - normal: Simulator: 
-2020-12-23T12:38:55.416Z - normal: Simulator: 
-2020-12-23T12:38:55.417Z - normal: Simulator: 
-2020-12-23T12:38:55.417Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:38:55.418Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:38:55.418Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2020-12-23T12:38:55.419Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:38:55.419Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
-2020-12-23T12:38:55.420Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
-2020-12-23T12:38:55.421Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2020-12-23T12:38:55.421Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
-2020-12-23T12:38:55.492Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
-2020-12-23T12:38:55.493Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:38:55.493Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:38:55.494Z - normal: Simulator: LOAD Js FILE: main.js
-2020-12-23T12:38:55.494Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:38:56.237Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
-2020-12-23T12:38:56.354Z - normal: Simulator: iShow!
-2020-12-23T12:38:56.475Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 98.06700000000001ms
-2020-12-23T12:38:56.900Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
-2020-12-23T12:38:56.901Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
-2020-12-23T12:38:59.510Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
-2020-12-23T12:39:04.352Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
-2020-12-23T12:39:04.353Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 359, all objects: 1068
-2020-12-23T12:39:04.391Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 319, all objects: 1018
-2020-12-23T12:39:04.392Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 319, all objects: 1018
-2020-12-23T12:39:04.431Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 319, all objects: 1018
-2020-12-23T12:39:04.462Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:39:04.463Z - normal: Simulator: D/jswrapper (532): Function object is released!
-2020-12-23T12:39:04.464Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:39:04.477Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
-2020-12-23T12:39:04.700Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-2020-12-23T12:39:48.671Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2020-12-23T12:39:48.674Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
-2020-12-23T12:39:48.675Z - normal: Simulator: FRAME SCALE = 0.50
-2020-12-23T12:39:49.203Z - normal: Simulator: Ready for GLSL
-2020-12-23T12:39:49.205Z - normal: Simulator: Ready for OpenGL 2.0
-2020-12-23T12:39:49.206Z - normal: Simulator: Project Config:
-2020-12-23T12:39:49.206Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
-2020-12-23T12:39:49.207Z - normal: Simulator:     writable path: $(PROJDIR)\
-2020-12-23T12:39:49.207Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2020-12-23T12:39:49.208Z - normal: Simulator:     frame size: 750 x 1334
-2020-12-23T12:39:49.208Z - normal: Simulator:     frame scale: 0.50
-2020-12-23T12:39:49.209Z - normal: Simulator:     show console: NO
-2020-12-23T12:39:49.209Z - normal: Simulator:     write debug log: NO ()
-2020-12-23T12:39:49.210Z - normal: Simulator:     listen: 
-2020-12-23T12:39:49.210Z - normal: Simulator:     debugger: none
-2020-12-23T12:39:49.211Z - normal: Simulator:     add searching path:
-2020-12-23T12:39:49.211Z - normal: Simulator: 
-2020-12-23T12:39:49.212Z - normal: Simulator: 
-2020-12-23T12:39:49.212Z - normal: Simulator: 
-2020-12-23T12:39:49.213Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:39:49.213Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:39:49.214Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2020-12-23T12:39:49.214Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:39:49.215Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
-2020-12-23T12:39:49.215Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
-2020-12-23T12:39:49.216Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2020-12-23T12:39:49.216Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
-2020-12-23T12:39:49.245Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
-2020-12-23T12:39:49.246Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:39:49.247Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:39:49.248Z - normal: Simulator: LOAD Js FILE: main.js
-2020-12-23T12:39:49.250Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:39:50.026Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
-2020-12-23T12:39:50.078Z - normal: Simulator: iShow!
-2020-12-23T12:39:50.223Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 104.89800000000014ms
-2020-12-23T12:39:50.644Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
-2020-12-23T12:39:50.644Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
-2020-12-23T12:40:01.893Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
-2020-12-23T12:40:23.743Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
-2020-12-23T12:40:23.744Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 511, all objects: 1671
-2020-12-23T12:40:23.805Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 299, all objects: 1406
-2020-12-23T12:40:23.807Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 299, all objects: 1406
-2020-12-23T12:40:23.845Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 299, all objects: 1406
-2020-12-23T12:40:23.846Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:40:23.847Z - normal: Simulator: D/jswrapper (532): Function object is released!
-2020-12-23T12:40:23.848Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:40:23.871Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
-2020-12-23T12:40:24.114Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-2020-12-23T12:41:21.265Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2020-12-23T12:41:21.277Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
-2020-12-23T12:41:21.279Z - normal: Simulator: FRAME SCALE = 0.50
-2020-12-23T12:41:21.748Z - normal: Simulator: Ready for GLSL
-2020-12-23T12:41:21.749Z - normal: Simulator: Ready for OpenGL 2.0
-2020-12-23T12:41:21.752Z - normal: Simulator: Project Config:
-2020-12-23T12:41:21.754Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
-2020-12-23T12:41:21.755Z - normal: Simulator:     writable path: $(PROJDIR)\
-2020-12-23T12:41:21.756Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2020-12-23T12:41:21.757Z - normal: Simulator:     frame size: 750 x 1334
-2020-12-23T12:41:21.757Z - normal: Simulator:     frame scale: 0.50
-2020-12-23T12:41:21.758Z - normal: Simulator:     show console: NO
-2020-12-23T12:41:21.758Z - normal: Simulator:     write debug log: NO ()
-2020-12-23T12:41:21.759Z - normal: Simulator:     listen: 
-2020-12-23T12:41:21.759Z - normal: Simulator:     debugger: none
-2020-12-23T12:41:21.760Z - normal: Simulator:     add searching path:
-2020-12-23T12:41:21.760Z - normal: Simulator: 
-2020-12-23T12:41:21.760Z - normal: Simulator: 
-2020-12-23T12:41:21.761Z - normal: Simulator: 
-2020-12-23T12:41:21.762Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:41:21.762Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:41:21.762Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2020-12-23T12:41:21.763Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:41:21.763Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
-2020-12-23T12:41:21.763Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
-2020-12-23T12:41:21.764Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2020-12-23T12:41:21.764Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
-2020-12-23T12:41:21.806Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
-2020-12-23T12:41:21.810Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:41:21.810Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:41:21.811Z - normal: Simulator: LOAD Js FILE: main.js
-2020-12-23T12:41:21.811Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:41:22.664Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
-2020-12-23T12:41:22.722Z - normal: Simulator: iShow!
-2020-12-23T12:41:22.864Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 89.97800000000007ms
-2020-12-23T12:41:23.298Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
-2020-12-23T12:41:23.299Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
-2020-12-23T12:41:41.927Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
-2020-12-23T12:41:44.329Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
-2020-12-23T12:41:44.331Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 303, all objects: 798
-2020-12-23T12:41:44.364Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 283, all objects: 773
-2020-12-23T12:41:44.365Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 283, all objects: 773
-2020-12-23T12:41:44.374Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 283, all objects: 773
-2020-12-23T12:41:44.413Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:41:44.413Z - normal: Simulator: D/jswrapper (532): Function object is released!
-2020-12-23T12:41:44.414Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:41:44.414Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
-2020-12-23T12:41:44.614Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
-2020-12-23T12:43:26.419Z - normal: Simulator: SCREEN DPI = 96, SCREEN SCALE = 1.00
-2020-12-23T12:43:26.424Z - normal: Simulator: WORKAREA WIDTH 1358.00, HEIGHT 677.00
-2020-12-23T12:43:26.425Z - normal: Simulator: FRAME SCALE = 0.50
-2020-12-23T12:43:26.883Z - normal: Simulator: Ready for GLSL
-2020-12-23T12:43:26.884Z - normal: Simulator: Ready for OpenGL 2.0
-2020-12-23T12:43:26.884Z - normal: Simulator: Project Config:
-2020-12-23T12:43:26.885Z - normal: Simulator:     project dir: D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\cocos2d-x\simulator\win32\
-2020-12-23T12:43:26.885Z - normal: Simulator:     writable path: $(PROJDIR)\
-2020-12-23T12:43:26.886Z - normal: Simulator:     script file: $(PROJDIR)\main.js
-2020-12-23T12:43:26.886Z - normal: Simulator:     frame size: 750 x 1334
-2020-12-23T12:43:26.887Z - normal: Simulator:     frame scale: 0.50
-2020-12-23T12:43:26.887Z - normal: Simulator:     show console: NO
-2020-12-23T12:43:26.887Z - normal: Simulator:     write debug log: NO ()
-2020-12-23T12:43:26.888Z - normal: Simulator:     listen: 
-2020-12-23T12:43:26.888Z - normal: Simulator:     debugger: none
-2020-12-23T12:43:26.889Z - normal: Simulator:     add searching path:
-2020-12-23T12:43:26.889Z - normal: Simulator: 
-2020-12-23T12:43:26.890Z - normal: Simulator: 
-2020-12-23T12:43:26.890Z - normal: Simulator: 
-2020-12-23T12:43:26.891Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:43:26.891Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:43:26.891Z - normal: Simulator: LOAD Js FILE: jsb-adapter/jsb-builtin.js
-2020-12-23T12:43:26.892Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:43:26.893Z - normal: Simulator: D/jswrapper (380): Initializing V8, version: 8.0.426.16
-2020-12-23T12:43:26.894Z - normal: Simulator: D/jswrapper (813): libuv version: 1.13.1
-2020-12-23T12:43:26.894Z - normal: Simulator: D/jswrapper (112): Debugger listening..., visit [ devtools://devtools/bundled/js_app.html?v8only=true&ws=0.0.0.0:5086/00010002-0003-4004-8005-000600070008 ] in chrome browser to debug!
-2020-12-23T12:43:26.895Z - normal: Simulator: D/jswrapper (115): For help see https://nodejs.org/en/docs/inspector
-2020-12-23T12:43:26.922Z - normal: Simulator: D/jswrapper (132): JS: Enable batch GL commands optimization!
-2020-12-23T12:43:26.922Z - normal: Simulator: resetDesignResolution request
-2020-12-23T12:43:26.923Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:43:26.923Z - normal: Simulator: LOAD Js FILE: main.js
-2020-12-23T12:43:26.924Z - normal: Simulator: ------------------------------------------------
-2020-12-23T12:43:27.684Z - normal: Simulator: D/jswrapper (132): JS: Read json failed: Unexpected end of JSON input
-2020-12-23T12:43:27.747Z - normal: Simulator: iShow!
-2020-12-23T12:43:27.906Z - normal: Simulator: D/jswrapper (132): JS: load __quick_compile_project__: 88.53500000000008ms
-2020-12-23T12:43:28.316Z - normal: Simulator: D/renderer (616): Device caps: maxVextexTextures: 16, maxFragUniforms: 256, maxTextureUints: 16, maxVertexAttributes: 16, maxDrawBuffers: 8, maxColorAttatchments: 8
-2020-12-23T12:43:28.317Z - normal: Simulator: D/jswrapper (132): JS: Cocos Creator v2.4.2
-2020-12-23T12:43:51.784Z - normal: Simulator: D/jswrapper (132): JS: [WARN]: cc.Action is deprecated, please use cc.TweenAction instead
-2020-12-23T12:44:00.604Z - normal: Simulator: D/jswrapper (473): ScriptEngine::cleanup begin ...
-2020-12-23T12:44:00.605Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 511, all objects: 1258
-2020-12-23T12:44:00.628Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 319, all objects: 1018
-2020-12-23T12:44:00.629Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 319, all objects: 1018
-2020-12-23T12:44:00.664Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 319, all objects: 1018
-2020-12-23T12:44:00.677Z - normal: Simulator: D/jswrapper (613): GC begin ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:44:00.677Z - normal: Simulator: D/jswrapper (532): Function object is released!
-2020-12-23T12:44:00.679Z - normal: Simulator: D/jswrapper (631): GC end ..., (js->native map) size: 0, all objects: -1
-2020-12-23T12:44:00.692Z - normal: Simulator: D/jswrapper (534): ScriptEngine::cleanup end ...
-2020-12-23T12:44:00.909Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
-libpng warning: iCCP: known incorrect sRGB profile
+
+    at Socket.<anonymous> (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\wechatgame\utils\wechat-game.js:1:821)
+    at Socket.emit (events.js:194:13)
+    at Socket.EventEmitter.emit (domain.js:469:20)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:165:17)
+2020-12-24T11:15:48.598Z - error: √ IDE server has started, listening on http://127.0.0.1:34624
+
+    at Socket.<anonymous> (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\wechatgame\utils\wechat-game.js:1:821)
+    at Socket.emit (events.js:194:13)
+    at Socket.EventEmitter.emit (domain.js:469:20)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:165:17)
+2020-12-24T11:15:48.599Z - error: - open IDE
+
+
+    at Socket.<anonymous> (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\wechatgame\utils\wechat-game.js:1:821)
+    at Socket.emit (events.js:194:13)
+    at Socket.EventEmitter.emit (domain.js:469:20)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:165:17)
+2020-12-24T11:15:52.834Z - error: √ open IDE
+
+    at Socket.<anonymous> (D:\programs\CocosDashboard\resources\.editors\Creator\2.4.2\resources\app.asar\editor\builtin\wechatgame\utils\wechat-game.js:1:821)
+    at Socket.emit (events.js:194:13)
+    at Socket.EventEmitter.emit (domain.js:469:20)
+    at addChunk (_stream_readable.js:296:12)
+    at readableAddChunk (_stream_readable.js:277:11)
+    at Socket.Readable.push (_stream_readable.js:232:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:165:17)
+2020-12-24T11:39:28.963Z - info: shutdown preview server

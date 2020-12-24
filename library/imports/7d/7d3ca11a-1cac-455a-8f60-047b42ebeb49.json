@@ -181,7 +181,7 @@
       "array": [
         0,
         0,
-        278.86018001858923,
+        257.2095449239783,
         0,
         0,
         0,
@@ -1076,8 +1076,8 @@
       "__id__": 24
     },
     "_enabled": true,
-    "padding": 10,
-    "spacing": 10,
+    "padding": 0,
+    "spacing": 7,
     "colNum": 10,
     "brickPrefab": {
       "__uuid__": "4ac4f513-8e46-4ec8-92a5-34291707d27b"

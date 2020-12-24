@@ -10,8 +10,8 @@
     "relativePath": "res\\scenes"
   },
   "7d3ca11a-1cac-455a-8f60-047b42ebeb49": {
-    "asset": 1608728058271,
-    "meta": 1608728058291,
+    "asset": 1608809966392,
+    "meta": 1608809966415,
     "relativePath": "res\\scenes\\brick.fire"
   },
   "5ffcba10-fc36-4341-9399-ce8208c70c02": {
@@ -38,26 +38,6 @@
     "asset": 1555484589000,
     "meta": 1601036111701,
     "relativePath": "res\\textures\\brick\\bg_over.png"
-  },
-  "03fc3923-f427-4b33-b637-930d8f777d5d": {
-    "asset": 1555484589000,
-    "meta": 1601036111734,
-    "relativePath": "res\\textures\\brick\\brick0.png"
-  },
-  "331e285e-6419-4b5b-a33e-0c951c27f192": {
-    "asset": 1555484589000,
-    "meta": 1601036111770,
-    "relativePath": "res\\textures\\brick\\brick1.png"
-  },
-  "7cdc74d4-072e-4ec9-adfd-ee8956b57b6a": {
-    "asset": 1555484589000,
-    "meta": 1601036111788,
-    "relativePath": "res\\textures\\brick\\brick2.png"
-  },
-  "761034e4-a063-4e23-b56e-bbf7bebebb9f": {
-    "asset": 1555484589000,
-    "meta": 1601036111808,
-    "relativePath": "res\\textures\\brick\\brick3.png"
   },
   "b9be18b6-ccbd-4f81-a2c1-ff055056ca1a": {
     "asset": 1555484589000,
@@ -125,8 +105,8 @@
     "relativePath": "res\\prefabs\\birck"
   },
   "4ac4f513-8e46-4ec8-92a5-34291707d27b": {
-    "asset": 1601381116398,
-    "meta": 1601381116402,
+    "asset": 1608808128362,
+    "meta": 1608808128375,
     "relativePath": "res\\prefabs\\birck\\brick.prefab"
   },
   "0c111a3a-676f-4dd9-ab6d-4ab1a70764bc": {
@@ -693,5 +673,25 @@
     "asset": 1608726702605,
     "meta": 1608726746696,
     "relativePath": "res\\textures\\brick\\paddle.png"
+  },
+  "331e285e-6419-4b5b-a33e-0c951c27f192": {
+    "asset": 1608727962488,
+    "meta": 1608807869865,
+    "relativePath": "res\\textures\\brick\\brick1.png"
+  },
+  "03fc3923-f427-4b33-b637-930d8f777d5d": {
+    "asset": 1608727925720,
+    "meta": 1608807869872,
+    "relativePath": "res\\textures\\brick\\brick0.png"
+  },
+  "7cdc74d4-072e-4ec9-adfd-ee8956b57b6a": {
+    "asset": 1608728001148,
+    "meta": 1608807869898,
+    "relativePath": "res\\textures\\brick\\brick2.png"
+  },
+  "761034e4-a063-4e23-b56e-bbf7bebebb9f": {
+    "asset": 1608728042128,
+    "meta": 1608807869904,
+    "relativePath": "res\\textures\\brick\\brick3.png"
   }
 }
